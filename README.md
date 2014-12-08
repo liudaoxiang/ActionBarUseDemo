@@ -18,4 +18,5 @@ ActionBarUseDemo
 已过时的方法可以参考 http://developer.android.com/design/patterns/navigation.html 进行替换
 
 /**********************/
-a ActionBar use demo
+
+A ActionBar use demo
