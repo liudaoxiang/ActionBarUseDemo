@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.actionbartest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:name="com.example.actionbartest.MyAPP"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.actionbartest.MainActivity"
+            android:label="基础使用" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.actionbartest.Activity01"
+            android:label="自定义按钮"
+            android:parentActivityName="com.example.actionbartest.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.actionbartest.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.actionbartest.Activity02"
+            android:label="下拉列表"
+            android:parentActivityName="com.example.actionbartest.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.actionbartest.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.actionbartest.Activity03"
+            android:label="加载刷新"
+            android:parentActivityName="com.example.actionbartest.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.actionbartest.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
