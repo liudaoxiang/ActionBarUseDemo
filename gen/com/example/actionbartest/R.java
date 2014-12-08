@@ -27,32 +27,36 @@ public final class R {
     public static final class drawable {
         public static final int afs=0x7f020000;
         public static final int aft=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int ic_menu_refresh=0x7f020003;
-        public static final int l0=0x7f020004;
-        public static final int ok_btn_selector=0x7f020005;
-        public static final int ql=0x7f020006;
-        public static final int qm=0x7f020007;
+        public static final int ic_compose=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
+        public static final int ic_menu_refresh=0x7f020004;
+        public static final int l0=0x7f020005;
+        public static final int ok_btn_selector=0x7f020006;
+        public static final int ql=0x7f020007;
+        public static final int qm=0x7f020008;
     }
     public static final class id {
-        public static final int action_edit=0x7f090005;
-        public static final int action_email=0x7f090006;
-        public static final int action_help=0x7f090007;
-        public static final int action_search=0x7f090002;
-        public static final int action_settings=0x7f090008;
-        public static final int action_share=0x7f090003;
-        public static final int action_share_provider=0x7f090004;
-        public static final int btn=0x7f090001;
-        public static final int menu_refresh=0x7f09000a;
-        public static final int menu_setting=0x7f090009;
-        public static final int tst=0x7f090000;
+        public static final int action_edit=0x7f090007;
+        public static final int action_email=0x7f090008;
+        public static final int action_help=0x7f090009;
+        public static final int action_search=0x7f090004;
+        public static final int action_settings=0x7f09000a;
+        public static final int action_share=0x7f090005;
+        public static final int action_share_provider=0x7f090006;
+        public static final int btn=0x7f090003;
+        public static final int button1=0x7f090000;
+        public static final int menu_refresh=0x7f09000c;
+        public static final int menu_setting=0x7f09000b;
+        public static final int start_split_mode=0x7f090002;
+        public static final int tst=0x7f090001;
     }
     public static final class layout {
         public static final int actionbar_progress=0x7f030000;
         public static final int activity_main=0x7f030001;
         public static final int myaction=0x7f030002;
         public static final int spinner_item=0x7f030003;
-        public static final int test=0x7f030004;
+        public static final int split=0x7f030004;
+        public static final int test=0x7f030005;
     }
     public static final class menu {
         public static final int main=0x7f080000;

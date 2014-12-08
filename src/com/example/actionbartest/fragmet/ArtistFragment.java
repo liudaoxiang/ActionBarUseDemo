@@ -1,6 +1,6 @@
 package com.example.actionbartest.fragmet;
 
-import com.example.actionbartest.Activity01;
+import com.example.actionbartest.AddCustomViewActivity;
 
 import android.app.Fragment;
 import android.content.Intent;
@@ -26,7 +26,7 @@ public class ArtistFragment extends Fragment {
 
 			@Override
 			public void onClick(View v) {
-				final Intent intent = new Intent(getActivity(), Activity01.class);
+				final Intent intent = new Intent(getActivity(), AddCustomViewActivity.class);
 				startActivity(intent);
 			}
 		});

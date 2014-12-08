@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.SpinnerAdapter;
 import android.widget.Toast;
 
-public class Activity02 extends BaseActivity {
+public class NaviListActivity extends BaseActivity {
 	private String[] strs;
 	@SuppressWarnings("deprecation")
 	@Override
@@ -20,7 +20,7 @@ public class Activity02 extends BaseActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.test);
 		Button button = (Button) findViewById(R.id.btn);
-		final Intent intent = new Intent(this, Activity03.class);
+		final Intent intent = new Intent(this, RefreshViewActivity.class);
 		button.setOnClickListener(new OnClickListener() {
 
 			@Override

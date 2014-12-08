@@ -7,13 +7,18 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-public class Activity01 extends BaseActivity {
+/**
+ * 自定义View 添加至Actionbar
+ * @author longzhc
+ *
+ */
+public class AddCustomViewActivity extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.test);
 		Button button = (Button) findViewById(R.id.btn);
-		final Intent intent = new Intent(this, Activity02.class);
+		final Intent intent = new Intent(this, NaviListActivity.class);
 		button.setOnClickListener(new OnClickListener() {
 			
 			@Override

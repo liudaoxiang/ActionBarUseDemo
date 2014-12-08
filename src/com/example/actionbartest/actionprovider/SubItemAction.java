@@ -52,6 +52,9 @@ public class SubItemAction extends ActionProvider {
 				});
 	}
 
+	/**
+	 * 返回true , 有子菜单
+	 */
 	@Override
 	public boolean hasSubMenu() {
 		return true;

@@ -18,6 +18,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.MenuItem.OnActionExpandListener;
+import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.Window;
 import android.widget.ShareActionProvider;
@@ -53,6 +54,16 @@ public class MainActivity extends Activity {
 		setOverflowShowingAlways();//
 	}
 
+	public void onClick(View v){
+		Intent intent = new Intent(this,AddCustomViewActivity.class);
+		startActivity(intent);
+	}
+	
+	public void onClick1(View v){
+		Intent intent = new Intent(this,SplitActionBarActivity.class);
+		startActivity(intent);
+	}
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		MenuInflater inflater = getMenuInflater();
@@ -170,7 +181,7 @@ public class MainActivity extends Activity {
 			Toast.makeText(this, "Menu Item  action_help selected",
 					Toast.LENGTH_SHORT).show();
 
-			Intent intent = new Intent(this, Activity01.class);
+			Intent intent = new Intent(this, AddCustomViewActivity.class);
 			startActivity(intent);
 			break;
 		default:
